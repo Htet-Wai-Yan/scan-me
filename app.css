@@ -42,7 +42,7 @@ h1 span {
 }
 
 .heading {
-  background-image: url(images/banner.jpg);
+  background-image: url(./images/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 5px solid var(--secondary);
