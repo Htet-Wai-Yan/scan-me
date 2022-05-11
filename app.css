@@ -1,0 +1,88 @@
+/* San pro font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap');
+
+:root {
+  --primary: #30344C;
+  --secondary: #215ead;
+  --hover-color: #fff;
+}
+
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+h1 span {
+  font-size: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 0 auto;
+  max-width: 425px;
+  background-color: var(--primary);
+}
+
+.heading {
+  background-image: url(/images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 5px solid var(--secondary);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#profile-image {
+  width: 150px;
+  height: auto;
+  border: 5px solid var(--secondary);
+  border-radius: 50%;
+  transform: translateY(50%);
+}
+
+.info {
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.info p {
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin-top: 3rem;
+}
+
+ul li a {
+  color: var(--secondary);
+  font-size: 2.5rem;
+}
+
+ul li a:hover {
+  color: var(--hover-color);
+  transition: all ease-in 0.3s;
+}
